@@ -1,0 +1,32 @@
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # If the requested file or directory exists, don't rewrite
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Route /register to register.php
+    RewriteRule ^register/?$ register.php [L,QSA]
+
+    # Route /login to login.php
+    RewriteRule ^login/?$ login.php [L,QSA]
+    
+    RewriteRule ^profile/?$ profile.php [L,QSA]
+
+    RewriteRule ^logout/?$ logout.php [L,QSA]
+    
+    RewriteRule ^cronologia/?$ cronologie.php [L,QSA]
+    RewriteRule ^despre/?$ despre.php [L,QSA]
+    RewriteRule ^control/?$ control.php [L,QSA]
+    RewriteRule ^capital/?$ capital.php [L,QSA]
+    RewriteRule ^contact/?$ contact.php [L,QSA]
+
+    # Optionally, route the root URL to index.php
+    RewriteRule ^$ index.php [L,QSA]
+</IfModule>
+
