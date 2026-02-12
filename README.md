@@ -1,52 +1,21 @@
-# Urmele Timpului – Călătorie în memoria Holocaustului
+# Capital & Control
 
-**Urmele Timpului** is a digital history project about the Holocaust, created for an educational competition.  
-The site presents historical information, survivor stories, films, books and an interactive map, all in Romanian, in a format that is easy to explore.
+Capital & Control is a digital portal dedicated to exploring global financial history. The project examines the economic transformations that have shaped the modern world, analyzing the delicate balance between market risks and state control.
 
-🌐 **Live website:** https://history.alphabit.ro/
+The platform provides educational insights into historical financial crises, the psychology of markets (greed vs. fear), and the socio-economic impacts of planned economies versus free markets.
 
----
+## Project Preview
 
-## 🕊️ About the project
+![Website Homepage Preview](assets/images/main_website_preview.png)
 
-The goal of this project is to keep the memory of the Holocaust alive and to help students understand:
+## Installation and Setup
 
-- how the Holocaust started and evolved;
-- what happened to Jewish communities and other persecuted groups;
-- why remembrance and education are essential today.
+To run this project locally or on a dedicated server, this application requires a standard LAMP stack (Linux, Apache, MySQL, PHP). Below are the specific steps to deploy using the Apache2 web server.
 
-The homepage introduces the project with the title:
+### 1. Install Apache and PHP
+Update your package index and install the necessary software.
 
-> „Urmele Timpului – Călătorie în memoria Holocaustului”
-
-and invites visitors to explore the rest of the content.
-
----
-
-## ✨ Main features
-
-- **Historical overview** – clear explanations of what the Holocaust was and how it unfolded.
-- **Films section** – recommendations of movies related to the Holocaust.
-- **Books section** – a curated list of books for further reading.
-- **Interactive map** – a map of relevant locations (camps, memorials, museums, etc.).
-- **AI assistant** – integrated chat assistant (“Asistentul AI”) that helps users ask questions and discover content on the site.
-- **Responsive design** – layout adapted for desktop and smaller screens.
-
----
-
-## 🛠️ Tech stack
-
-- Static website using **HTML5**, **CSS3**, and **JavaScript**
-- Custom design with a focus on readability and a sober, respectful look
-- Deployed at `history.alphabit.ro`
-
----
-
-## 🚀 Running locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-
+```bash
+sudo apt update
+sudo apt install apache2 php libapache2-mod-php
+```
