@@ -9,7 +9,7 @@ session_start();
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <title>Capital & Riscul • Capital & Control</title>
 
-    <link rel="stylesheet" href="assets/css/style.css?v=4">
+    <link rel="stylesheet" href="assets/css/style.css?v=8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="shortcut icon" href="assets/images/logo_no_bg.ico">
     <link rel="stylesheet" href="/assets/css/chat.css">
