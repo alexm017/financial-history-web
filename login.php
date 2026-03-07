@@ -1,14 +1,8 @@
 <?php
 $dbServername = "localhost";
 $dbUsername = "root";
-$dbPassword = "72hFig28JGo0K";
+$dbPassword = "<REDACTED>";
 $dbDatabase = "alphabit";
-
-$recordFile = @fopen("/var/www/html/record_index.txt", "a");
-if ($recordFile) {
-	fwrite($recordFile, "login\n");
-	fclose($recordFile);
-}
 
 session_start();
 
